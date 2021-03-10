@@ -175,10 +175,10 @@ This problem is actually only visible when rm_work is applied. If rm_work is dis
 
 Clone my fork of poky with the changes to include do_packagesplit (on branch abiequiv) and clone meta-abicompat into this poky setup.
 ```
-git clone https://github.com/michael131468/meta-abicompat-poky.git poky
+git clone https://github.com/bmwcarit/meta-abicompat-poky.git poky
 cd poky
 git checkout abiequiv
-git clone https://github.com/michael131468/meta-abicompat.git
+git clone https://github.com/bmwcarit/meta-abicompat.git
 ```
 
 Next initiate the poky environment
